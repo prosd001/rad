@@ -1,0 +1,10 @@
+.radish-square-banner {
+  background: url(../../../images/radish-square-banner-bg.svg) no-repeat center
+    center;
+  background-size: cover;
+  padding: 200px 0 0 0 !important;
+  border-radius: 24px;
+}
+/* .project-card {
+  background: linear-gradient(180deg, #1d1e22 0%, #2a2e3a 100%);
+} */

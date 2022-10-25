@@ -1,0 +1,50 @@
+.rootpad-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+/* dashboard-banner */
+.rootpad-banner {
+  background: url("../../../images/rootpad-banner-bg.svg") no-repeat center
+    center;
+  background-size: cover;
+  padding: 60px 50px !important;
+  border-radius: 16px;
+  position: relative;
+}
+.driver-box {
+  position: absolute;
+  bottom: -20%;
+  left: 10%;
+}
+.driver-box img {
+  width: 100%;
+}
+
+.project-card-button {
+  background: radial-gradient(
+    76.72% 55.6% at 36.34% 31.97%,
+    #ff73ae 0%,
+    #de345e 100%
+  ) !important;
+  text-transform: inherit !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .rootpad-container {
+    /* grid-template-columns: 1fr; */
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .rootpad-banner {
+    padding: 40px !important;
+  }
+  .driver-box {
+    left: -5%;
+  }
+  .driver-box img {
+    width: 50%;
+  }
+}

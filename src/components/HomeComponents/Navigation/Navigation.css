@@ -1,0 +1,26 @@
+.nav-bar {
+  background: #131417;
+}
+
+.navbar a,
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+.nav-link {
+  color: #fff;
+  font-weight: 700 !important;
+  transition: 0.4s;
+}
+.nav-link-light {
+  color: #fff;
+  font-weight: 700 !important;
+  transition: 0.4s;
+}
+.nav-link-light:hover {
+  color: #282830;
+}
+.nav-link:hover {
+  color: #fff;
+}
